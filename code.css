@@ -1,0 +1,316 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#hero > img{
+    height: 300px;
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid  rgb(2, 32, 32);
+    margin-top: 30px;
+   
+}
+#hero > img:hover{
+    box-shadow: 0 0 10px rgb(8, 246, 234), 0 0 20px rgb(7, 231, 247), 0 0 30px rgb(8, 244, 181), 0 0 40px blue, 0 0 45px blue;
+    cursor: pointer;
+}
+
+#hero{
+    height: 1432px;
+    width: 22%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color:darkcyan;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    border: 3px solid brown;
+    
+}
+#hero > h1{
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 1px;
+ 
+}
+#hero > h1:hover{
+    box-shadow: 0 0 10px rgb(8, 246, 234), 0 0 20px rgb(7, 231, 247), 0 0 30px rgb(8, 244, 181), 0 0 40px rgb(36, 36, 240), 0 0 45px rgb(6, 6, 236);
+    cursor: pointer;
+}
+#hero > h1 > span{
+    color: white;
+   
+}   
+#hero > h3 > span{
+    color: white;
+    font-family: cursive;
+    font-weight: 700;
+}
+h2{
+    font-family: sans-serif;
+    margin-top: 30px;
+    color: white;
+    letter-spacing: 1px;
+}
+.av{
+    font-family:cursive;
+}
+p{
+    font-family: cursive;
+    font-weight: 500;
+}
+#h3{
+    font-family:sans-serif;
+    margin-top: 30px;
+}
+
+.code{
+    font-family: sans-serif;
+    margin-top: 40px;
+    color: white;
+    letter-spacing: 1px;
+}
+#email{
+    font-weight: 600;
+    text-decoration: underline;
+}
+.pl{
+    font-weight: 500;
+    font-family: cursive;
+}
+#ha{
+    font-family: sans-serif;
+    margin-top: 50px;
+    color: white;
+    letter-spacing: 1px;
+}
+li{
+    font-family:cursive;
+    font-weight: 500;
+}
+
+#top{
+    width: 70%;
+    height: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display:inline-block;
+    margin: auto;
+    margin-bottom: 117px;
+    border-radius: 10px;
+    margin-left: 30px;
+    border: 3px solid brown;
+   
+}
+#box{
+    width: 95%;
+    height: 250px;
+    border: 3px solid brown;
+    margin: auto;
+    border-radius: 10px;
+    background-color:rgb(17, 121, 121);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+
+
+#box > h1{
+    text-align: end;
+    padding-top: 80px;
+    text-align: center;
+    font-family:cursive;
+    
+}
+#am{
+    color: red;
+}
+
+.sk{
+    margin-left: 5%;
+    font-family:sans-serif;
+    color: red;
+    letter-spacing: 1px;
+}
+#ul > li{
+    margin-left: 3%;
+    font-family:cursive;
+    
+}
+#sm{
+    font-family:cursive;
+    margin-left: 5%;
+    width: 90%;
+    text-align: justify;
+    color: rgb(23, 133, 124);
+}
+#top > h2{
+    margin-left: 5%;
+}
+#top > h3{
+    margin-left: 5%;
+   
+}
+.spn{
+    color: darkviolet;
+    font-family: cursive;
+}
+.pr{
+    font-family:cursive;
+    margin-left: 5%;
+    width: 90%;
+}
+.hr{
+    width: 90%;
+    margin-top: 20px;
+}
+.ag{
+    margin-left: 1%;
+    font-family:sans-serif;
+    color: red;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.bs{
+    font-family: sans-serif;
+    color: black;
+}
+.br{
+    color: red;
+    letter-spacing: 1px;
+}
+.h4{
+    font-family:cursive;
+}
+
+#box > div > img{
+    height: 240px;
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+#box > div{
+    height: 240px;
+    border: 5px solid rgb(2, 32, 32);
+    border-radius: 10px;
+}   
+#box > div:hover{
+    box-shadow: 0 0 10px rgb(8, 246, 234), 0 0 20px rgb(7, 231, 247), 0 0 30px rgb(8, 244, 181), 0 0 40px blue, 0 0 45px blue;
+    cursor: pointer;
+}
+
+#hero > h3:first-child:hover{
+    box-shadow: 0 0 10px rgb(8, 246, 234), 0 0 20px rgb(7, 231, 247), 0 0 30px rgb(8, 244, 181), 0 0 40px blue, 0 0 45px blue;
+    cursor: pointer;
+
+}
+#width{
+    width: 60%;
+}
+
+/* small screen */
+@media all and (min-width: 320px) and (max-width: 767px) {
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #hero{
+        height: auto;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+        
+    #top{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        margin-left: 30px;
+        margin-right: 27px;
+    }
+    #box{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+    }
+    
+    #box > div > img{
+        height: 240px;
+        width: 100%;
+        border-radius: 5px;
+        margin: auto;
+    }
+    #box > div{
+        margin: auto;
+    }
+    #box > h1{
+        margin: auto;
+    }
+    
+}
+
+/* medium scree */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #hero{
+        height: auto;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+        
+    #hero > img{
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+    
+    }
+        
+    #top{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    #box{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #box > div > img{
+        height: 240px;
+        width: 100%;
+        border-radius: 5px;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    #box > div{
+        margin: auto;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    #box > h1{
+        margin: auto;
+    }
+    .we{
+        text-align: center;
+    }
+}
